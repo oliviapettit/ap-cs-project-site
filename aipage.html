@@ -24,7 +24,8 @@
     </nav>
     
   </header>
-<div>Teachable Machine Image Model - p5.js and ml5.js</div>
+  <div id="teachablemachine">
+<h2>Teachable Machine AI</h2>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
@@ -32,7 +33,7 @@
   // Classifier Variable
   let classifier;
   // Model URL
-  let imageModelURL = './my_model/';
+  let imageModelURL = 'https://teachablemachine.withgoogle.com/models/CjRr1hM6T/';
   
   // Video
   let video;
@@ -91,3 +92,7 @@
     classifyVideo();
   }
 </script>
+
+  </div>
+</body>
+</html>
